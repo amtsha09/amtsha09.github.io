@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>response</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="response.css">        
+        
+    </head>
+    
+    <body>
+        
+        <h3>Response Game</h3>
+        <h4>Keep clicking on the poping figures and Hurry up !</h4>
+        
+        <h5>How many seconds of play do you want
+            <select id="selectTime">
+                <option>10</option>
+                <option>20</option>
+                <option>30</option>
+                <option>40</option>
+                <option>50</option>
+                <option>60</option>
+            </select> 
+            
+            <button id="startGame" onclick = play()>Start the Game</button>
+        </h5>
+        
+        <p> Time taken for this item : <span id="thisItem"></span></p>
+        <p> Total number of items hit : <span id="totalItems"></span></p>
+
+        <div id="shape" onclick = disappear()></div>
+
+        <script type="text/javascript" src="response.js"></script>  
+            
+    </body>
+
+
+
+</html>
